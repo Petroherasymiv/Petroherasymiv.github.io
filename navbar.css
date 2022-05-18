@@ -1,0 +1,1203 @@
+/*body {*/
+/*    max-width: 1900px;*/
+/*    margin: 0 auto;*/
+/*}*/
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 968px;
+    background-position: center;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+}
+
+.navbar-expand-lg .offcanvas {
+    margin-right: -45%;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    width: 70%;
+    margin-top: -600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 5rem;
+}
+
+.bigText {
+
+    color: white;
+    position: absolute;
+    top: 300px;
+    margin-left: -11.5%;
+    width: 900px;
+    height: 400px;
+    /*z-index: 1000;*/
+    font-size: 64px;
+    box-sizing: border-box;
+}
+
+.smaller-Text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.smaller-Text1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 400px;
+    text-decoration-line: underline;
+}
+
+.StylesText{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.bigTextIphone {
+
+    opacity: 0;
+}
+
+.about {
+    height: 500px;
+    /*border: 1px solid black;*/
+}
+
+.About {
+
+    width: 100px;
+    height: 50px;
+    margin: 3% 15%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /*border: 1px solid black;*/
+}
+
+.Lorem {
+    width: 70%;
+    height: 200px;
+    /*border: 1px solid black;*/
+    margin: 2% auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Skills {
+    /*border: 1px solid black;*/
+    height: 750px;
+    background-color: #FFFAF2;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftMarg {
+    margin: 0 0 0 15%;
+    /*border: 1px solid black;*/
+
+}
+
+.rightMarg {
+    /*border: 1px solid black;*/
+    width: 40%;
+    /*height: 100%;*/
+    /*padding-top: 5.5%;*/
+    /*margin-left: 3%;*/
+    margin-right: 10%;
+}
+.BOX{
+    height: 18%;
+    /*border: 1px solid black;*/
+}
+
+.wordSkills {
+    /*width: 150px;*/
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20%;
+    /*padding-top: 20%;*/
+    /*border: 1px solid black;*/
+}
+
+.Photo {
+    background-image: url("images/Profile Picture.png");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 340px;
+    margin: 10% 0;
+}
+
+.skillsProfile {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+}
+.skillsProfileMarg {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    height: 30px;
+    /*border: 1px solid black;*/
+    /*margin-top: 2.05%;*/
+}
+.smallText {
+    height: 100%;
+    width: 65%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /*border: 1px solid red;*/
+    text-align: left;
+}
+
+.borderOne {
+    height: 100%;
+    background-color: #F5D6AB;
+    width: 65%;
+}
+
+.borderOneOne {
+    height: 100%;
+    background-color: #C66C49;
+    width: 80%;
+}
+
+.borderOneTwo {
+    height: 100%;
+    background-color: #C66C49;
+    width: 70%;
+}
+
+.borderOneThree {
+    height: 100%;
+    background-color: #C66C49;
+    width: 60%;
+}
+
+.skillsProfileMarg {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    height: 30px;
+    /*border: 1px solid black;*/
+    margin-top: 2.05%;
+}
+
+.Portfolio {
+    height: 800px;
+    background-color: white;
+
+}
+
+.textPortfolio {
+    height: 100%;
+    width: 30%;
+    /*border: 1px solid black;*/
+    margin-left: 15%;
+}
+
+.photoPortfolio {
+    height: 100%;
+    width: 55%;
+    /*border: 1px solid black;*/
+}
+
+.photoPortfolioPng {
+    margin-top: 30%;
+    margin-left: 2%;
+    /*border: 1px solid black;*/
+    Width: 635px;
+    Height: 403px;
+    background-image: url("images/Portfolio Images.png");
+    background-repeat: no-repeat;
+}
+
+.UXResearch {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10%;
+}
+
+.portfolioLorem {
+    /*border: 1px solid black;*/
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;;
+    margin-top: 10%;
+}
+
+.Arrow {
+    margin-top: 35%;
+    background-image: url("images/Arrow.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    height: 400px;
+    background-color: #FFFAF2;
+    width: 100%;
+}
+
+.section1 {
+
+    height: 100%;
+    width: 200px;
+    margin-left: 15%;
+}
+
+.section2 {
+    margin-right: 1%;
+    Font-size: 18px;
+    Line-height: 30px;
+    /*padding-top: 7%;*/
+
+    height: 100%;
+    width: 200px;
+}
+
+.section3 {
+    margin-right: 20%;
+    Font-size: 18px;
+    Line-height: 30px;
+    /*padding-top: 7%;*/
+
+    height: 100%;
+    width: 200px;
+}
+
+.wordFlex {
+    Font-size: 18px;
+    Line-height: 30px;
+    padding-top: 7%;
+
+}
+
+
+
+@media (max-width: 1440px) {
+    body {
+        max-width: 1440px;
+    }
+    .navbar {
+        background-size: cover;
+        height: 750px;
+        background-position: center;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-top: -550px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 3rem;
+    }
+    .navbar-expand-lg .offcanvas {
+        margin-right: -50%;
+    }
+    .bigText {
+        color: white;
+        position: absolute;
+        top: 200px;
+        margin-left: -12%;
+        width: 900px;
+        height: 400px;
+        /*z-index: 1000;*/
+        font-size: 64px;
+        box-sizing: border-box;
+    }
+
+
+    .about {
+        height: 450px;
+        /*border: 1px solid black;*/
+    }
+
+    .About {
+        /*width: 414px;*/
+        height: 50px;
+        margin: 0 15%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .Lorem {
+        width: 70%;
+        height: 200px;
+        /*border: 1px solid black;*/
+        margin: 2% auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .data-bs {
+        overflow: hidden;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: center;*/
+    }
+.BOX{
+    height: 15%;
+}
+    .Skills {
+
+        height: 680px;
+    }
+    .leftMarg {
+        margin: 0 0 0 15%;
+        /*border: 1px solid black;*/
+    }
+
+    .wordSkills {
+        text-align: left;
+        margin: 35px 0;
+    }
+
+    .Photo {
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .rightMarg {
+        /*border: 1px solid black;*/
+        width: 40%;
+        /*height: 100%;*/
+        /*padding-top: 5.5%;*/
+        /*margin-left: 3%;*/
+        margin-right: 10%;
+    }
+
+    .skillsProfile {
+        margin-top: 10%;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+    .skillsProfileMarg {
+        margin-top: 15px;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .smallText {
+        height: 100%;
+        width: 65%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        /*border: 1px solid red;*/
+        text-align: left;
+    }
+
+    .borderOne {
+        height: 100%;
+        background-color: #F5D6AB;
+        width: 65%;
+
+    }
+    .Portfolio {
+        height: 700px;
+        background-color: white;
+
+    }
+
+    .textPortfolio {
+        height: 100%;
+        width: 30%;
+        /*border: 1px solid black;*/
+        margin-left: 15%;
+    }
+
+    .photoPortfolio {
+        height: 100%;
+        width: 55%;
+        /*border: 1px solid black;*/
+    }
+
+    .photoPortfolioPng {
+        margin-top: 28%;
+        margin-left: 2%;
+        /*border: 1px solid black;*/
+        Width: 585px;
+        Height: 353px;
+        background-size: cover;
+    }
+
+    .UXResearch {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 10%;
+    }
+
+    .portfolioLorem {
+        /*border: 1px solid black;*/
+        width: 90%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;;
+        margin-top: 10%;
+    }
+
+    .Arrow {
+        margin-top: 35%;
+        background-image: url("images/Arrow.png");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+    }
+    .navbar {
+        background-size: cover;
+        height: 500px;
+        background-position: center;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-top: -400px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 3rem;
+    }
+    .navbar-expand-lg .offcanvas {
+        margin-right: -48%;
+    }
+    .bigText {
+        color: white;
+        position: absolute;
+        top: 180px;
+        margin-left: -11.5%;
+        width: 900px;
+        height: 400px;
+        /*z-index: 1000;*/
+        font-size: 50px;
+        box-sizing: border-box;
+    }
+
+    .smaller-Text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .smaller-Text1 {
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 150px;
+        text-decoration-line: underline;
+    }
+
+    .about {
+        height: 450px;
+        /*border: 1px solid black;*/
+    }
+
+    .About {
+        /*width: 414px;*/
+        height: 50px;
+        margin: 0 15%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .Lorem {
+        width: 70%;
+        height: 200px;
+        /*border: 1px solid black;*/
+        margin: 2% auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .data-bs {
+        overflow: hidden;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: center;*/
+    }
+    .BOX{
+        height: 15%;
+    }
+    .Skills {
+
+        height: 680px;
+    }
+    .leftMarg {
+        margin: 0 0 0 15%;
+        /*border: 1px solid black;*/
+    }
+
+    .wordSkills {
+        text-align: left;
+        margin: 35px 0;
+    }
+
+    .Photo {
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .rightMarg {
+        /*border: 1px solid black;*/
+        width: 40%;
+        /*height: 100%;*/
+        /*padding-top: 5.5%;*/
+        /*margin-left: 3%;*/
+        margin-right: 10%;
+    }
+
+    .skillsProfile {
+        margin-top: 10%;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+    .skillsProfileMarg {
+        margin-top: 15px;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .smallText {
+        height: 100%;
+        width: 65%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        /*border: 1px solid red;*/
+        text-align: left;
+    }
+
+    .borderOne {
+        height: 100%;
+        background-color: #F5D6AB;
+        width: 65%;
+
+    }
+    .Portfolio {
+        height: 700px;
+        background-color: white;
+
+    }
+
+    .textPortfolio {
+        height: 100%;
+        width: 30%;
+        /*border: 1px solid black;*/
+        margin-left: 15%;
+    }
+
+    .photoPortfolio {
+        height: 100%;
+        width: 55%;
+        /*border: 1px solid black;*/
+    }
+
+    .photoPortfolioPng {
+        margin-top: 30%;
+        margin-left: 2%;
+        /*border: 1px solid black;*/
+        Width: 535px;
+        Height: 303px;
+        background-size: cover;
+    }
+
+    .UXResearch {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 10%;
+    }
+
+    .portfolioLorem {
+        /*border: 1px solid black;*/
+        width: 90%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;;
+        margin-top: 10%;
+    }
+
+    .Arrow {
+        margin-top: 35%;
+        background-image: url("images/Arrow.png");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        /*width: 414px;*/
+        height: 500px;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-top: -300px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+
+        padding-left: 0.5rem;
+    }
+
+    .bigText {
+        opacity: 0;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        justify-content: center;
+    }
+
+
+    .bigTextIphone {
+        /*margin-left: -50px;*/
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 24px;
+        position: absolute;
+        top: 220px;
+        opacity: 1;
+        color: white;
+    }
+
+    .smaller-TextIphone {
+        margin-top: 20px;
+        margin-left: 25px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 16px;
+    }
+
+    .smaller-Text1Iphone {
+        margin-top: 35px;
+        font-style: normal;
+        margin-left: 100px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        text-decoration-line: underline;
+    }
+    .about {
+        height: 450px;
+        /*border: 1px solid black;*/
+    }
+
+    .About {
+        /*width: 414px;*/
+        height: 50px;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .data-bs {
+        overflow: hidden;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: center;*/
+    }
+
+    .Skills {
+        width: 100%;
+        /*margin-top: 180px;*/
+        height: 1000px;
+        /*border: 1px solid black;*/
+    }
+
+    .leftMarg {
+        margin: 0 auto;
+        height: 500px;
+        /*border: 1px solid black;*/
+    }
+
+    .wordSkills {
+        text-align: center;
+        margin: 35px auto;
+    }
+
+    .Photo {
+        margin-top: 10%;
+    }
+
+    .rightMarg {
+        padding-top: 0;
+        /*border: 1px solid black;*/
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .skillsProfile {
+        margin-left: 0;
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .skillsProfileMarg {
+        padding-left: 10px;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .smallText {
+        Font-size: 15px;
+        Line-height: 25px;
+        height: 100%;
+        width: 70%;
+        font-style: normal;
+        font-weight: 400;
+        /*border: 1px solid red;*/
+        text-align: left;
+    }
+
+    .borderOne {
+        height: 100%;
+        background-color: #F5D6AB;
+        width: 65%;
+        margin-right: 20px;
+    }
+
+    .Portfolio {
+        width: 100%;
+        height:100%;
+        background-color: white;
+        /*border: 1px solid black;*/
+    }
+
+    .textPortfolio {
+        height: 250px;
+        width: 100%;
+        /*border: 1px solid #f10707;*/
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .photoPortfolio {
+        margin-top: 0;
+        margin-right:auto;
+        margin-left: auto;
+        height: 560px;
+        width: 95%;
+        /*border: 1px solid #ee0606;*/
+    }
+
+    .photoPortfolioPng {
+        margin-top: 0;
+        /*margin-top: 0;*/
+        margin-left: auto;
+        margin-right: auto;
+        /*Width: 830px;*/
+        width: 100%;
+        Height: 548px;
+        background-size: 100%;
+    }
+
+    .UXResearch {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: -4%;
+    }
+
+    .portfolioLorem {
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;;
+        margin-top: 1%;
+    }
+
+    .Arrow {
+        background-image: none;
+    }
+
+    footer {
+        height: 500px;
+        background-color: #FFFAF2;
+        width: 100%;
+        /*border: 1px solid black;*/
+    }
+
+    .section1 {
+        padding: 0;
+        height: 200px;
+        width: 150px;
+        /*border: 1px solid black;*/
+        margin: 0 0 0 6%;
+    }
+
+    .section2 {
+        padding: 0;
+        /*margin-right: 55%;*/
+        margin: 0 15% 0 0;
+        Font-size: 18px;
+        Line-height: 30px;
+        /*padding-top: 7%;*/
+        height: 200px;
+        width: 150px;
+        /*border: 1px solid black;*/
+    }
+
+    .section3 {
+        margin: 0 25% 0 0;
+        padding: 0;
+        /*border: 1px solid black;*/
+        /*margin-right: 40%;*/
+        Font-size: 18px;
+        Line-height: 1px;
+        height: 200px;
+        width: 150px;
+    }
+
+    .wordFlex {
+        Font-size: 18px;
+        Line-height: 30px;
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .navbar {
+        /*width: 414px;*/
+        height: 250px;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-top: -150px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+
+        padding-left: 0.5rem;
+    }
+
+    .bigText {
+        opacity: 0;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        justify-content: center;
+    }
+    .bigTextIphone {
+        /*margin-left: -50px;*/
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        position: absolute;
+        top: 120px;
+        opacity: 1;
+        color: white;
+    }
+
+    .smaller-TextIphone {
+        margin-top: 10px;
+        margin-left: 12px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .smaller-Text1Iphone {
+        margin-top: 35px;
+        font-style: normal;
+        margin-left: 60px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        text-decoration-line: underline;
+    }
+    .about {
+        height: 800px;
+        /*border: 1px solid black;*/
+    }
+
+    .About {
+        /*width: 414px;*/
+        height: 50px;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .data-bs {
+        overflow: hidden;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: center;*/
+    }
+
+    .Skills {
+        width: 100%;
+        /*margin-top: 180px;*/
+        height: 950px;
+        /*border: 1px solid black;*/
+    }
+
+    .leftMarg {
+        margin: 0 auto;
+        height: 500px;
+        /*border: 1px solid black;*/
+    }
+
+    .wordSkills {
+        text-align: center;
+        margin: 35px auto;
+    }
+
+    .Photo {
+        margin-top: 10%;
+    }
+
+    .rightMarg {
+        padding-top: 0;
+        /*border: 1px solid black;*/
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .skillsProfile {
+        margin-left: 0;
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .skillsProfileMarg {
+        padding-left: 10px;
+        margin-left: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+        height: 30px;
+        /*border: 1px solid black;*/
+    }
+
+    .smallText {
+        Font-size: 15px;
+        Line-height: 25px;
+        height: 100%;
+        width: 70%;
+        font-style: normal;
+        font-weight: 400;
+        /*border: 1px solid red;*/
+        text-align: left;
+    }
+
+    .borderOne {
+        height: 100%;
+        background-color: #F5D6AB;
+        width: 65%;
+        margin-right: 20px;
+    }
+
+    .Portfolio {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        /*border: 1px solid black;*/
+    }
+    .textPortfolio {
+        height: 250px;
+        width: 100%;
+        /*border: 1px solid #f10707;*/
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .photoPortfolio {
+        margin-top: 0;
+        height: 500px;
+        width: 95%;
+        /*border: 1px solid #ee0606;*/
+    }
+
+    .photoPortfolioPng {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    .UXResearch {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: -4%;
+    }
+
+    .portfolioLorem {
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;;
+        margin-top: 1%;
+    }
+
+    .Arrow {
+        background-image: none;
+    }
+
+    footer {
+        height: 500px;
+        background-color: #FFFAF2;
+        width: 100%;
+        /*border: 1px solid black;*/
+    }
+
+    .section1 {
+        height: 200px;
+        width: 150px;
+        margin-left: 6%;
+        /*border: 1px solid black;*/
+    }
+
+    .section2 {
+        margin-right: 5%;
+        Font-size: 18px;
+        Line-height: 30px;
+        /*padding-top: 7%;*/
+        height: 200px;
+        width: 150px;
+        /*border: 1px solid black;*/
+    }
+
+    .section3 {
+        /*border: 1px solid black;*/
+        margin-right: 0;
+        Font-size: 18px;
+        Line-height: 1px;
+        padding-left: 6%;
+        height: 200px;
+        width: 100%;
+    }
+
+    .wordFlex {
+        Font-size: 18px;
+        Line-height: 30px;
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
