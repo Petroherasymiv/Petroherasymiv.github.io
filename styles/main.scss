@@ -1,0 +1,611 @@
+@import "variable/variable";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.d_Flex {
+  display: flex;
+  flex-flow: wrap;
+}
+.container {
+  width: 1440px;
+  height: 3191px;
+  margin: 0 auto;
+
+  &_headerPhoto {
+    height: 700px;
+    background-image: url("images/Headaer and Promo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  &_bigBlockOne {
+    height: 1018px;
+    //border: 1px solid red;
+
+    &__boldText {
+      margin-left: 1px;
+      margin-top: 89px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $main-font;
+      line-height: 32px;
+      text-align: center;
+
+      &__Step_1 {
+        margin: 35px 0 0 250px;
+        width: 300px;
+        height: 400px;
+        //border: 1px solid red;
+        background-image: url("images/Step 1.png");
+        background-repeat: no-repeat;
+      }
+
+      &__Step_2 {
+        width: 300px;
+        height: 400px;
+        //border: 1px solid red;
+        margin: 35px 0 0 20px;
+        background-image: url("images/Step 2.png");
+        background-repeat: no-repeat;
+      }
+
+      &__Step_3 {
+        width: 300px;
+        height: 400px;
+        //border: 1px solid red;
+        margin: 35px 0 0 20px;
+        background-image: url("images/Step 3.png");
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__boldTextTwo {
+      margin-left: 4px;
+      margin-top: 89px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $main-font;
+      line-height: 32px;
+      text-align: center;
+
+      &__Partner1 {
+        margin: 35px 0 0 250px;
+        width: 221px;
+        height: 235px;
+        background-image: url("images/Person.png");
+        background-repeat: no-repeat;
+      }
+
+      &__Partner2 {
+        margin: 35px 0 0 19px;
+        width: 221px;
+        height: 235px;
+        background-image: url("images/Person Copy.png");
+        background-repeat: no-repeat;
+      }
+
+      &__Partner3 {
+        margin: 35px 0 0 19px;
+        width: 221px;
+        height: 235px;
+        background-image: url("images/Person Copy 2.png");
+        background-repeat: no-repeat;
+      }
+
+      &__Partner4 {
+        //border: 1px solid black;
+        margin: 35px 0 0 19px;
+        width: 221px;
+        height: 235px;
+        background-image: url("images/Person Copy 3.png");
+        background-repeat: no-repeat;
+      }
+
+    }
+    &_redText {
+      //border: 1px solid black;
+      width: 180px;
+      height: 50px;
+      margin: 25px auto;
+      background-image: url("images/Rectangle 3 Copy 3.png");
+      background-repeat: no-repeat;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+      padding: 0 0 7px 25px;
+      color: $main-color;
+    }
+  }
+
+  &_holidayPhoto {
+    margin: 0 auto;
+    width: 940px;
+    height: 1031px;
+    background-image: url("images/Ideas.png");
+    background-repeat: no-repeat;
+    &__textHoliday {
+      height: 26px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $main-font;
+      line-height: 32px;
+      display: flex;
+      align-items: flex-end;
+      text-align: center;
+      //padding-left:265px;
+      margin: 0 0 0 265px;
+    }
+  }
+
+  &_holidayActivity {
+    height: 266px;
+
+    &__textActivity {
+      margin: 89px 0 0 0;
+      width: 100%;
+      height: 35px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $main-font;
+      line-height: 32px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__textSmall {
+      margin: 50px 0 0 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 14px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: black;
+      word-spacing: 0;
+      letter-spacing: -1.2px;
+    }
+  }
+  form {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center
+  }
+  input[type="text"] {
+    height: 40px;
+    width: 298px;
+    padding: 5px 0 0 15px;
+    font-size: 14px;
+  }
+
+  input[type="reset"] {
+    margin: 0 0 0 10px;
+    height: 40px;
+    width: 175px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ec4c4c;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+  }
+
+}
+
+footer {
+  background-image: url("images/Footer.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1440px;
+  height: 224px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 770px;
+    height: 3419px;
+    margin: 0 auto;
+    //border: 2px solid black;
+    &_headerPhoto {
+      margin: 0 auto;
+      height: 700px;
+      width: 768px;
+      background-image: url("images/Headaer and PromoTablet.png");
+      background-repeat: no-repeat;
+      //background-size: 100%;
+      //background-position: center;
+    }
+
+    &_bigBlockOne {
+      height: 1208px;
+      //border: 1px solid red;
+      &__boldText {
+        margin-left: 1px;
+        margin-top: 93px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+
+
+        &__Step_1 {
+          margin: 36px 0 0 11px;
+          width: 236px;
+          height: 400px;
+          //border: 1px solid red;
+          background-image: url("images/Step 1.1.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Step_2 {
+          width: 236px;
+          height: 400px;
+          //border: 1px solid red;
+          margin: 36px 0 0 20px;
+          background-image: url("images/Step 2 1.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Step_3 {
+          width: 236px;
+          height: 400px;
+          //border: 1px solid red;
+          margin: 36px 0 0 20px;
+          background-image: url("images/Step 3 1.png");
+          background-repeat: no-repeat;
+        }
+      }
+
+      &__boldTextTwo {
+        margin-left: 2px;
+        margin-top: 93px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+
+
+        &__Partner1 {
+          margin: 36px 0 0 146px;
+          width: 221px;
+          height: 235px;
+          background-image: url("images/Person.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner2 {
+          margin: 36px 0 0 35px;
+          width: 221px;
+          height: 235px;
+          background-image: url("images/Person Copy 2.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner3 {
+          margin: 24px 0 0 146px;
+          width: 221px;
+          height: 235px;
+          background-image: url("images/Person Copy.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner4 {
+          //border: 1px solid black;
+          margin: 24px 0 0 28px;
+          width: 237px;
+          height: 236px;
+          background-image: url("images/Person Copy 3 (1).png");
+          background-repeat: no-repeat;
+        }
+      }
+
+      &_redText {
+        //border: 1px solid black;
+        width: 180px;
+        height: 50px;
+        margin: 9px auto;
+        background-image: url("images/Rectangle 3 Copy 3.png");
+        background-repeat: no-repeat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        padding: 0 0 7px 25px;
+        color: $main-color;
+      }
+    }
+
+    &_holidayPhoto {
+      margin: 50px 11px;
+      //border: 1px solid black;
+      width: 748px;
+      height: 1031px;
+      background-image: url("images/Ideas (1).png");
+      background-repeat: no-repeat;
+
+      &__textHoliday {
+        height: 26px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        text-align: center;
+        //padding-left:265px;
+        margin: 0 0 0 200px;
+      }
+    }
+
+    &_holidayActivity {
+      height: 266px;
+
+      &__textActivity {
+        margin: 95px 0 0 0;
+        width: 100%;
+        height: 35px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        justify-content: center;
+      }
+
+      &__textSmall {
+        margin: 44px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: black;
+        word-spacing: 0;
+        letter-spacing: -1.2px;
+      }
+    }
+  }
+  .Footer {
+    background-image: url("images/Footer (1).png");
+    background-repeat: no-repeat;
+    margin: 15px auto;
+    width: 770px;
+    height: 224px;
+    border: 1px solid white;
+    &_bitmap{
+      background-image: url("images/Bitmap.png");
+      background-repeat: no-repeat;
+      margin: 60px 42px 0 auto;
+      //border: 1px solid black;
+      width: 110px;
+      height: 25px;
+    }
+  }
+
+
+}@media (max-width: 400px) {
+  .container {
+    max-width: 322px;
+    height: 3710px;
+    margin: 0 auto;
+    &_headerPhoto {
+      margin: 0 auto;
+      height: 548px;
+      width: 320px;
+      background-image: url("images/Headaer and Promo (1).png");
+      background-repeat: no-repeat;
+      //background-size: 100%;
+      //background-position: center;
+    }
+
+    &_bigBlockOne {
+      //border: 1px solid red;
+      height: 1880px;
+      &__boldText {
+        height: 2px;
+        margin-left: 0;
+        margin-top: 25px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        &__Step_1 {
+          margin: 0 0 0 11px;
+          width: 300px;
+          height: 781px;
+          background-image: url("images/How it works.png");
+          background-repeat: no-repeat;
+        }
+        &__Step_2 {
+          width: 0;
+          height: 0;
+          margin: 0 0 0 0;
+          background-image: none;
+        }
+        &__Step_3 {
+          width: 0;
+          height: 0;;
+          margin: 0 0 0 0;
+          background-image: none;
+
+        }
+      }
+      &__boldTextTwo {
+        margin-left: 2px;
+        margin-top: 36px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+
+
+        &__Partner1 {
+          margin: 14px auto 0 50px;
+          width: 236px;
+          height: 221px;
+          background-image: url("images/Person.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner2 {
+          margin: 0 auto 0 50px;
+          width: 236px;
+          height: 235px;
+          background-image: url("images/Person Copy 2.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner3 {
+          margin: 5px auto 0 50px;
+          width: 236px;
+          height: 221px;;
+          background-image: url("images/Person Copy.png");
+          background-repeat: no-repeat;
+        }
+
+        &__Partner4 {
+          //border: 1px solid black;
+          margin: 0 auto 0 auto;
+          width: 236px;
+          height: 235px;
+          background-image: url("images/Person Copy 3 (1).png");
+          background-repeat: no-repeat;
+        }
+      }
+
+      &_redText {
+        width: 280px;
+        height: 45px;
+        margin: 3px auto;
+        background-image: url("images/Rectangle 3 Copy 3 (1).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 0 0;
+        color: $main-color;
+
+      }
+
+    }
+
+    &_holidayPhoto {
+      margin: 5px auto;
+      width: 300px;
+      height: 990px;
+      background-image: url("images/Mobile Portrait1.png");
+      background-repeat: no-repeat;
+
+      &__textHoliday {
+        width: 200px;
+        height: 54px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        display: flex;
+        text-align: center;
+        padding:0 0 0 0;
+        margin: 0 auto 0 auto;
+      }
+    }
+
+    &_holidayActivity {
+      height: 236px;
+
+      &__textActivity {
+        margin: 32px auto 0 auto;
+        width: 250px;
+        height: 55px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        justify-content: center;
+      }
+
+      &__textSmall {
+        margin: 17px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: black;
+        word-spacing: 0;
+        letter-spacing: -1.2px;
+      }
+    }
+    form {
+      margin: 15px 0 0 0;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center
+    }
+    input[type="text"] {
+      height: 40px;
+      width:280px;
+      padding: 5px 0 0 15px;
+      font-size: 14px;
+    }
+
+    input[type="reset"] {
+      margin: 10px 0 0 0;
+      height: 40px;
+      width:280px;
+      border-radius: 25px;
+      border: none;
+      background-color: #ec4c4c;
+      color: white;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+    }
+  }
+  .Footer {
+    background-image: url("images/Footer (2).png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 320px;
+    height: 230px;
+    border: 1px solid white;
+    &_bitmap{
+      background-image: none;
+      background-repeat: no-repeat;
+      margin: 60px 42px 0 auto;
+      //border: 1px solid black;
+      width: 110px;
+      height: 25px;
+    }
+  }
+}
