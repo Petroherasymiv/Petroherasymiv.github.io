@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Border {
+    border: 1px solid black;
+}
+
+.Red {
+    background-color: red;
+
+}
+
+.Yellow {
+    background-color: yellow;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Maroon {
+    background-color: maroon;
+}
+
+.Lime {
+    background-color: Lime;
+}
+
+.Aqua {
+    background-color: Aqua;
+}
+
+.Teal {
+    background-color: Teal;
+}
+
+.Purple {
+    background-color: Purple;
+}
+
+.Gray {
+    background-color: Gray;
+}
+
+.Photo1 {
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo2 {
+    background-image: url('images/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo3 {
+    background-image: url('images/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo4 {
+    background-image: url('images/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo5 {
+    background-image: url('images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo6 {
+    background-image: url('images/6.jpg');
+    background-size: cover;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+.Photo7 {
+    background-image: url('images/7.jpg');
+    background-size: cover;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+.Photo8 {
+    background-image: url('images/8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.Photo9 {
+    background-image: url('images/9.jpg');
+    background-size: cover;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+.Box {
+    width: 500px;
+    height: 360px;
+    /*border: 1px solid black;*/
+    /*opacity: 0;*/
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box1 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box2 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box3 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box4 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box5 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box6 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box7 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box8 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Box9 {
+    width: 33.3333%;
+    height: 120px;
+
+}
+
+.Color {
+    cursor: pointer;
+    font-size: 35px;
+    width: 120px;
+}
+
+.Images {
+    cursor: pointer;
+    font-size: 35px;
+    width: 120px;
+}
