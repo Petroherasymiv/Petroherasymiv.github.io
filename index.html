@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="container">
+    <div class="firstClass">
+        <header class="blockSize">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </header>
+        <main>
+            <input class="butEdit button" type="button" value="Edit">
+            <input class="butStyle button" type="button" value="Style">
+        </main>
+        <footer>
+            <section class="editClass hide">
+                <textarea class="editArea "></textarea>
+                <input class="butAdd button" value="Add" type="button">
+                <input class="butSave button" value="Save" type="button">
+            </section>
+            <section class="styleClass hide">
+                <form>
+                    <h3>Font Size</h3>
+                    <section class="clickRadio">
+                        <input type="radio" name="sizeText" value="12px"><span>12px</span>
+                        <input type="radio" name="sizeText" value="14px"><span>14px</span>
+                        <input type="radio" name="sizeText" value="16px" checked><span>16px</span>
+                        <input type="radio" name="sizeText" value="18px"><span>18px</span>
+                        <input type="radio" name="sizeText" value="20px"><span>20px</span>
+                    </section>
+                    <section>
+                        <h3>Font family</h3>
+                        <select class="clickOption">
+                            <option value="">Choose option</option>
+                            <option value="cursive">cursive</option>
+                            <option value="fantasy">fantasy</option>
+                            <option value="monospace">monospace</option>
+                            <option value="sans-serif">sans-serif</option>
+                        </select>
+                    </section>
+                    <section class="clickColor">
+                        <h3>Colors</h3>
+                        <input class="buttColor button" type="button" value="Color of Text">
+                        <input class="buttBackgroundColor button" type="button" value="Background color">
+                        <div class="changeColor hide">
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                            <div class="colorBox"></div>
+                        </div>
+                    </section>
+                    <section class="fontStyle">
+                        <input class="checkBold" type="checkbox"><span>Bold text</span>
+                        <input class="checkCursive" type="checkbox"><span>Cursive text</span>
+                    </section>
+                </form>
+            </section>
+        </footer>
+    </div>
+    <div class="secondClass hide">
+        <header>
+            <h1>Choose what you want:</h1>
+            <div class="ChooseWhatYouWant">
+                <input type="radio" name='choose' value="table"><span>table</span>
+                <input type="radio" name='choose' value="list"><span>list</span>
+            </div>
+            <section class="createList hide">
+                <span class="left">Count Li:</span><input class='countLi' type="text">
+                <br>
+                <span class="left">Type of marks:</span>
+                <select class="chooseOption">
+                    <option value="circle">circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+                <br>
+                <input class="butCreateList button" type="button" value="Create list">
+            </section>
+            <section class="createTable hide">
+                <section class="classLeft">
+                    <p>Count TD:</p>
+                    <p>Count TR:</p>
+                </section>
+                <section class="classRight1">
+                    <input class='countTD' type="text">
+                    <input class='countTR' type="text">
+                </section>
+                <h2>Add style to your table: </h2>
+                <section class="classLeft">
+                    <p>Width of TD:</p>
+                    <p>Height of TD:</p>
+                    <p>Width of border:</p>
+                </section>
+                <section class="classRight">
+                    <input class='countWidthTD' type="text">
+                    <input class='countHeightTD' type="text">
+                    <div>
+                        <input class="chooseWidthBorder" type="text">
+                    </div>
+                    <div>
+                        <span class="marginRight">Type of border: </span> <select class="chooseTypeBorder">
+                        <option value="solid">solid</option>
+                        <option value="dotted">dotted</option>
+                        <option value="ridge">ridge</option>
+                        <option value="dashed">dashed</option>
+                    </select>
+                    </div>
+                    <div>
+                        <span class="marginRight">Color of border: </span> <select class="chooseColorBorder">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="yellow">yellow</option>
+                    </select>
+                    </div>
+                </section>
+
+                <input class="buttCreateTable button" value="Create table" type="button">
+            </section>
+        </header>
+    </div>
+</section>
+<script src="main.js"></script>
+</body>
+
+</html>
